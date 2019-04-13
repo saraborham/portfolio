@@ -1,14 +1,163 @@
 body {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+ 
+}
+h1{
+  font-family:'Quicksand', sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+p{
+  font-family:'Quicksand', sans-serif;
+  color: rgb(37, 35, 35);
+  font-size: 18px;
+}
+
+
+header{
+  display: flex;
+  flex-direction: column;
+  width:100%;
+  height:100vh;
+  background:url("./img/bg2.svg") no-repeat fixed;
+  background-size: cover;
+/* background-position-x: -40px; */
+
+}
+.my-name{
+  font-family:'Quicksand', sans-serif;
+  font-size: 20px;
+  color:rgb(37, 64, 153) !important;
+  text-align: center;
+}
+
+.social{
+  display:flex;
+}
+
+
+.bio-container{
+  display: flex;
+  height:100%;
+
+}
+.img-display{
+  width:400px;
+  height:400px;
+  position: relative;
+  margin-left:60px;
+  overflow: hidden;
+  
+
+  
+}
+
+@keyframes animate-code{
+  0%{
+transform: translateX(500px);
+  }
+  100%{
+    transform: translateX(0px);
+  }
+}
+@keyframes animate-design{
+  0%{
+transform: translateX(-500px);
+  }
+  100%{
+    transform: translateX(0px);
+  }
+}
+
+
+.design{
+  position: absolute;
+  width:200px;
+  left:0px;
+  bottom:0px; 
+  animation-name: animate-design;
+  animation-duration: .6s; 
+  animation-direction: normal;
+}
+.design img{
+   width:200px;
+  }
+.code{
+  position: absolute;
+  width:200px;
+  animation-name: animate-code;
+  animation-duration: .6s; 
+  animation-direction: normal;
+  right: 0;
+  bottom:0;
+  opacity:.6;
+ 
+}
+.code img{
+  width:200px;
+  
+  
+}
+
+
+.bio{
+  text-align: center;
+  width:45%;
+  
+  color:rgb(37, 64, 153);
+  align-self: center;
+
+  
+}
+.btn-color{
+  color:rgb(37, 64, 153);
+}
+.arrow-projects {
+  text-align: center;
+  width:100%;
+  height:100px;
+  
+
+ 
+}
+
+.arrow-projects a{
+  width:70px;
+  height:70px;
+  margin-bottom: 40px
+  
+}
+.arrow-projects p{
+  font-size: 15px;
+  color:rgb(37, 64, 153);
+  margin-bottom: 0
+}
+
+.fade-in{
+  opacity:0;
+animation-name:animate-fade-in;
+animation-duration: 2s;
+}
+.fade-out{
+  opacity:1;
+  animation-name:animate-fade-out;
+animation-duration: 2s;
+}
+
+@keyframes animate-fade-in{
+  0%{
+    opacity:0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+@keyframes animate-fade-out{
+  0%{
+    opacity:1;
+  }
+  100%{
+    opacity: 0;
+  }
 }
