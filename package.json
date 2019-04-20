@@ -4,8 +4,7 @@
   "private": true,
   "homepage": "https://saraborham.github.io/portfolio",
   "dependencies": {
-   
-   
+    "gh-pages": "^2.0.1",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
     "react-scripts": "2.1.8"

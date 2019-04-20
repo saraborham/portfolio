@@ -147,6 +147,20 @@ animation-duration: 2s;
   animation-name:animate-fade-out;
 animation-duration: 2s;
 }
+.project{
+  box-shadow: 1px 0px 15px rgba(0,0,0,.4);
+  transition: transform ease-in-out .2s;
+}
+.project p{
+  font-size:15px;
+}
+.project img{
+  height:250px;
+  
+}
+.project:hover{
+  transform: scale(1.1);
+}
 
 @keyframes animate-fade-in{
   0%{

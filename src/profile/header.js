@@ -1,5 +1,5 @@
 import React from 'react';
-import MyLogo from '../img/mylogo.svg';
+
 import Design from '../img/design-half.png';
 import Code from '../img/code-half.png';
 import Bio from './bio';
@@ -14,7 +14,7 @@ let Header = (props) =>{
                 <nav className="navbar navbar-expand-lg navbar-light p-3 ">
                     <div className="container">
                 
-                    <a className="navbar-brand my-name" href="#">SARA BORHAM</a>
+                    <a className="navbar-brand my-name" href="/">SARA BORHAM</a>
                     
                        
                         <SocialProfiles/>

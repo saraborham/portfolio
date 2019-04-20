@@ -10,7 +10,7 @@ render(){
     return(
         
             
-                    <div className="card m-3" >
+                    <div className="card m-3 project" >
                         <img src={image} className="card-img-top" alt={title}/>
                         <div className="card-body ">
                             <h5 className="card-title">{title}</h5>
