@@ -19,7 +19,7 @@ handleToggleBio =() =>{
 
 render(){
     return(
-        <div className="bio">
+        <div className="bio ">
             <h1>Hello!</h1>
                     <p> My Name is Sara</p>
 

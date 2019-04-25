@@ -84,7 +84,7 @@ transform: translateX(-500px);
   animation-direction: normal;
 }
 .design img{
-   width:200px;
+   width:100%;
   }
 .code{
   position: absolute;
@@ -98,7 +98,7 @@ transform: translateX(-500px);
  
 }
 .code img{
-  width:200px;
+  width:100%;
   
   
 }
@@ -128,8 +128,20 @@ transform: translateX(-500px);
 .arrow-projects a{
   width:70px;
   height:70px;
-  margin-bottom: 40px
-  
+  margin-bottom: 40px;
+  animation-name: animate-arrow;
+  animation-direction: alternate-reverse;
+  animation-iteration-count: infinite;
+  animation-duration: 3s;
+}
+@keyframes animate-arrow{
+  0%{
+    transform:translateY(10px)
+  }
+  100%{
+    transform:translateY(-10px)
+
+  }
 }
 .arrow-projects p{
   font-size: 15px;
@@ -177,4 +189,14 @@ animation-duration: 2s;
   100%{
     opacity: 0;
   }
+}
+
+@media screen and (max-width:950px){
+  .bio-container{
+    flex-direction: column;
+    align-content: center;
+  }
+ .img-display{
+   display: none;
+ }
 }

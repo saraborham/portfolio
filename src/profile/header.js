@@ -20,9 +20,9 @@ let Header = (props) =>{
                         <SocialProfiles/>
                         </div>
                  </nav>
-                 <div className="bio-container">
+                 <div className="bio-container ">
                     
-                     <div className="img-display container">
+                     <div className="img-display container ">
                      
 
 
