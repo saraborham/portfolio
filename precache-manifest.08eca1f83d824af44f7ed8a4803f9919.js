@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/behance.e507962f.svg"
   },
   {
-    "revision": "e7a132f1e773d9f4956f",
+    "revision": "82eb909331f3b568a88a",
     "url": "/portfolio/static/css/main.77dcc912.chunk.css"
   },
   {
@@ -36,8 +36,8 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/facebook.63681da5.svg"
   },
   {
-    "revision": "e7a132f1e773d9f4956f",
-    "url": "/portfolio/static/js/main.116101d3.chunk.js"
+    "revision": "82eb909331f3b568a88a",
+    "url": "/portfolio/static/js/main.9d7facde.chunk.js"
   },
   {
     "revision": "0cd0691c1fef848f4a90d5cde6b751ca",
@@ -72,7 +72,7 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/bg2.9608715d.svg"
   },
   {
-    "revision": "8940f7f43a003bec342519c5db28748c",
+    "revision": "ad6e2293f4207e7a4b267d17eaea5aa3",
     "url": "/portfolio/index.html"
   }
 ];
