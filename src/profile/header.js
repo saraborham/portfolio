@@ -14,7 +14,7 @@ let Header = (props) =>{
                 <nav className="navbar navbar-expand-lg navbar-light p-3 ">
                     <div className="container">
                 
-                    <a className="navbar-brand my-name" href="/">SARA BORHAM</a>
+                    <a className="navbar-brand my-name" href="/">SARA MOHAMED</a>
                     
                        
                         <SocialProfiles/>
