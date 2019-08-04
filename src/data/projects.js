@@ -32,7 +32,7 @@ const PROJECTS = [
         image:MyTech,
         title:'my tech',
         description:'it is a CSS  HTM challenge ',
-        link: 'https://saramohamed193github.io/myTECH/',
+        link: 'https://saramohamed193.github.io/Teck/',
         id:3
     },
     {
