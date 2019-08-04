@@ -9,7 +9,7 @@ const PROJECTS = [
     {
         image:MyTech,
         title:'my tech',
-        description:'it is a CSS  HTM challenge ',
+        description:'it is a website template for software services ',
         link: 'https://saramohamed193.github.io/Teck/',
         id:3
     },
@@ -17,15 +17,15 @@ const PROJECTS = [
     {
         image:Huddle,
         title:'huddle',
-        description:'it is a CSS HTML challenge',
-        link: 'https://saramohamed193.github.io/huddle-challenge1/',
+        description:'create landing page for Huddle website',
+        link: 'https://saramohamed193.github.io/huddle-landing-page/',
         id:1
     },
     {
         id:2,
         image:MusicMaster,
         title:'music master',
-        description:'it is a mini music web app ',
+        description:'it is a sample off music web app ',
         link: 'https://saramohamed193.github.io/music-master/'
     },
     {
@@ -33,15 +33,15 @@ const PROJECTS = [
         image:Book,
         title:'book app',
         description:'it is mini books web app challenge ',
-        link: 'https://saramohamed193.github.io/books-app/'
+        // link: 'https://saramohamed193.github.io/books-app/'
     },
    
     {
         id:5,
         image:Photography,
         title:'photography',
-        description:'it is  an example for using only bootstrap  ',
-        link: 'https://saramohamed193.github.io/photography/'
+        description:'it a photos  gallery template  ',
+        // link: 'https://saramohamed193.github.io/photography/'
     },
 
 
