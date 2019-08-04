@@ -1,10 +1,10 @@
 self.__precacheManifest = [
   {
-    "revision": "e507962f02672db115cba55a8a23faec",
-    "url": "/portfolio/static/media/behance.e507962f.svg"
+    "revision": "0cd0691c1fef848f4a90d5cde6b751ca",
+    "url": "/portfolio/static/media/mail.0cd0691c.svg"
   },
   {
-    "revision": "06a077ffb4d48e3cba13",
+    "revision": "0e7a0419229fb660adeb",
     "url": "/portfolio/static/css/main.77dcc912.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = [
     "url": "/portfolio/static/js/runtime~main.f308c8e6.js"
   },
   {
-    "revision": "5920b4ec0bf50bad2400",
-    "url": "/portfolio/static/js/2.275d95cc.chunk.js"
+    "revision": "b71f3626ed7e4861316d",
+    "url": "/portfolio/static/js/2.be1c7ab2.chunk.js"
   },
   {
     "revision": "db54652d1249e95814c45bdbee9a24ce",
@@ -36,16 +36,8 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/facebook.63681da5.svg"
   },
   {
-    "revision": "06a077ffb4d48e3cba13",
-    "url": "/portfolio/static/js/main.297b1597.chunk.js"
-  },
-  {
-    "revision": "0cd0691c1fef848f4a90d5cde6b751ca",
-    "url": "/portfolio/static/media/mail.0cd0691c.svg"
-  },
-  {
-    "revision": "c915644f011872c0d8e40594bcf9a502",
-    "url": "/portfolio/static/media/twitter.c915644f.svg"
+    "revision": "0e7a0419229fb660adeb",
+    "url": "/portfolio/static/js/main.dae2bf2c.chunk.js"
   },
   {
     "revision": "53247b677a39b2e48fcc240d8a22de03",
@@ -72,7 +64,15 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/bg2.9608715d.svg"
   },
   {
-    "revision": "636816ceef5a2fb28d4627aeee387427",
+    "revision": "e507962f02672db115cba55a8a23faec",
+    "url": "/portfolio/static/media/behance.e507962f.svg"
+  },
+  {
+    "revision": "c915644f011872c0d8e40594bcf9a502",
+    "url": "/portfolio/static/media/twitter.c915644f.svg"
+  },
+  {
+    "revision": "3c922f3a8501f12cb45e8c9098e2b2ac",
     "url": "/portfolio/index.html"
   }
 ];
