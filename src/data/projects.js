@@ -6,6 +6,13 @@ import MyTech from '../img/tech.jpg'
 
 
 const PROJECTS = [
+    {
+        image:MyTech,
+        title:'my tech',
+        description:'it is a CSS  HTM challenge ',
+        link: 'https://saramohamed193.github.io/Teck/',
+        id:3
+    },
 
     {
         image:Huddle,
@@ -28,13 +35,7 @@ const PROJECTS = [
         description:'it is mini books web app challenge ',
         link: 'https://saramohamed193.github.io/books-app/'
     },
-    {
-        image:MyTech,
-        title:'my tech',
-        description:'it is a CSS  HTM challenge ',
-        link: 'https://saramohamed193.github.io/Teck/',
-        id:3
-    },
+   
     {
         id:5,
         image:Photography,
