@@ -8,17 +8,14 @@ const  SOCIAL_PROFILES=[
 
     {
         image:Mail,
-        link:'engsaraborham@gmail.com'
+        link:'engsaramohamed193@yahoo.com'
     },
-    {
-        image: Twitter,
-        link:'https://twitter.com/Saraborham3'
-    },
+   
     
     
     {
         image:Linkedin,
-        link:'https://www.linkedin.com/in/saraborham/'
+        link:'https://www.linkedin.com/in/saramohamed/'
 
     },
     {
@@ -26,10 +23,10 @@ const  SOCIAL_PROFILES=[
         link:'https://www.facebook.com/engsaraborham'
     },
    
-    {
-        image:Behance,
-        link:'https://www.behance.net/engsarabor7b82'
-    }
+    // {
+    //     image:Behance,
+    //     link:'https://www.behance.net/engsara7b82'
+    // }
     
 
 ];
