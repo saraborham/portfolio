@@ -9,7 +9,7 @@ const PROJECTS = [
     {
         image:MyTech,
         title:'my tech',
-        description:'it is a website template for software services ',
+        description:'creating  template for tech company ',
         link: 'https://saramohamed193.github.io/Teck/',
         id:3
     },
